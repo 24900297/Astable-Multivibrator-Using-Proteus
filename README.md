@@ -65,22 +65,47 @@ The practical frequency closely matches the theoretical frequency.
 •	Increasing R or C decreases frequency.
 •	Used in clock generation, LED flashing, and tone generation.
 ## Viva Questions
-1.	What are the operating modes of 555 timer?
+## 555 Timer – Basic Questions
 
-Operating Modes: Monostable, Astable, and Bistable modes.
+### 1. What are the operating modes of a 555 timer?
+**Operating Modes:**  
+- Monostable mode  
+- Astable mode  
+- Bistable mode  
 
-2.	What are the threshold levels in astable mode?
+---
 
-Threshold Levels in Astable Mode: The capacitor charges and discharges
+### 2. What are the threshold levels in astable mode?
+**Threshold Levels in Astable Mode:**  
+The capacitor charges and discharges between:
 
-3.	Write the frequency formula.
+- **Upper level:** \( \frac{2}{3} V_{CC} \)  
+- **Lower level:** \( \frac{1}{3} V_{CC} \)
 
-f=(R1​+2R2​)C1.44​
+---
 
-4.	What is duty cycle?
+### 3. Write the frequency formula.
 
-Duty Cycle: The percentage of time the output remains HIGH in one complete cycle.
+\[
+f = \frac{1.44}{(R_1 + 2R_2)C}
+\]
 
-5.	What happens if R2 increases?
+---
 
-If R2 Increases: The time period and duty cycle increase while frequency decreases.
+### 4. What is duty cycle?
+
+**Duty Cycle:**  
+The percentage of time the output remains **HIGH** in one complete cycle.
+
+\[
+Duty\ Cycle = \frac{T_{HIGH}}{T_{HIGH}+T_{LOW}} \times 100
+\]
+
+---
+
+### 5. What happens if \(R_2\) increases?
+
+If **\(R_2\)** increases:
+- Time period increases  
+- Duty cycle increases  
+- Frequency decreases
